@@ -10,10 +10,6 @@ DecaCopy is a chrome extension that keeps track of your 10 recently copied text 
 - User can simply drag the text boxes from the extension and drop it to paste the copied text content in the browser (See Demo)
 - The data is stored locally in the browser.
 
-
-## Installation (How to run locally?)
-
-
 ## Technologies and APIs 
 - Chrome Storage API
 - Clipboard API
