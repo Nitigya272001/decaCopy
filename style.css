@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 350px;
+  height: 1050px;
+  font-size: 12px;
+}
+
+/* Container Main CSS */
+.container-main {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Box CSS */
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  width: 300px;
+  border: 3px solid #4285f4;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+img {
+  width: 29px;
+  height: 33.14px;
+}
+
+.box-content {
+  margin: 8px 16px;
+  line-height: 17.06px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #4285f4;
+  /* border: 3px solid #4285f4; */
+  border-radius: 15px;
+  transition: all 0.4s;
+  margin: 1px;
+  margin-right: 1.5px;
+}
+
+img {
+  margin: 0px 16px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: all 0.4s;
+}
+
+.active {
+  border: 3px solid #46f898;
+}
+
+.active .image-container {
+  background-color: #46f898;
+  border: 3px solid #46f898;
+}
+
+/* Home Image CSS */
+.home-image {
+  width: 300px;
+  height: auto;
+  position: sticky;
+  top: 60px;
+}
